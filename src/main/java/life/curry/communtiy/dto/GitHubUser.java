@@ -7,7 +7,7 @@ package life.curry.communtiy.dto;
  * @version 1.0
  * @date 2019/11/2 16:12
  */
-
+// alt + insert
 public class GitHubUser {
     private String name;
     private Long id;
@@ -32,5 +32,14 @@ public class GitHubUser {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "GitHubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
     }
 }
